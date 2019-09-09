@@ -21,7 +21,7 @@ namespace XamarinCICD
             // Handle when your app starts
             AppCenter.Start("android=64463de9-8174-4e11-bb8a-0c85e0d28116;" +
                   "uwp={Your UWP App secret here};" +
-                  "ios={Your iOS App secret here}",
+                  "ios=76ec9f4f-6641-4d81-a6ba-67b8c0190285;",
                   typeof(Analytics), typeof(Crashes));
         }
 
