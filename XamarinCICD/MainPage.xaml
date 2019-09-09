@@ -8,9 +8,10 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Qservices Inc." 
+        <Label x:Name="labeltext" Text="Welcome to Qservices Inc." 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Change text" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked"/>
     </StackLayout>
 
 </ContentPage>

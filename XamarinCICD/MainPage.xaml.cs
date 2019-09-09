@@ -17,5 +17,10 @@ namespace XamarinCICD
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            labeltext.Text = labeltext.Text.Contains("Qservices Inc.") ? labeltext.Text.Replace("Qservices Inc.", "Xamarin.Forms!") : labeltext.Text.Replace("Xamarin.Forms!", "Qservices Inc.");
+        }
     }
 }
